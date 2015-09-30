@@ -1,0 +1,21 @@
+{
+    "name": "leonjza/composer-shell",
+    "description": "Get a shell using the Composer dependency manager",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Leon Jacobs",
+            "email": "leonja511@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Starting\\": "src/"
+        }
+    },
+    "require": {},
+    "scripts": {
+        "post-update-cmd":"Starting\\The\\Shell::D"
+    }
+}
+
